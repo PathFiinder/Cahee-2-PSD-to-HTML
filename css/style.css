@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+header {
+  height: 1002px;
+  background-color: red;
+}
+
+section.about-us {
+  height: 700px;
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */
