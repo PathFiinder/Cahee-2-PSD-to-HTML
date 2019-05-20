@@ -16,6 +16,74 @@ header {
   background-color: red;
 }
 
+nav {
+  background-color: yellow;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav div.logo {
+  margin-right: 487px;
+  color: #262626;
+  font-size: 30px;
+  font-family: Pacifico;
+  letter-spacing: 10px;
+}
+
+nav ul {
+  list-style: none;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 100px;
+}
+
+nav ul li {
+  border: 1px solid black;
+  position: relative;
+}
+
+nav ul li a {
+  display: inline-block;
+  height: 100%;
+  background-color: blue;
+  padding: 10px 10px 0px 10px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  background-color: rgba(255, 192, 203, 0.6);
+}
+
+nav ul li a:hover + span {
+  display: block;
+  height: 10px;
+  background-color: orange;
+}
+
+nav ul li:nth-child(1) a {
+  padding-left: 0px;
+}
+
 section.about-us {
   height: 700px;
   background-color: green;
