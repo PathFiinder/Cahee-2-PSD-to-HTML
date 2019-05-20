@@ -1,5 +1,5 @@
 header
-    height: 1002px
+    height: 100vh
     background-image: url("/images/img_header.png")
     background-repeat: no-repeat
     background-position: center
@@ -8,26 +8,32 @@ header
  
 nav
     position: fixed
+    width: 100%
+    height: 60px
     z-index: 1
     display: flex 
     flex-direction: row
     justify-content: flex-end
     align-items: center
+    text-align: center
+    background-color: white
     div.logo
-        margin-left: 45px
-        margin-right: 487px
+        margin-left: 30px
+        margin-right: 387px
         color: #262626
         font-size: 30px
         font-family: Pacifico
-        letter-spacing: 10px
+        letter-spacing: 5px
     ul
-        
         list-style: none
         height: 40px
         display: flex
         flex-direction: row
-        margin-right: 100px
+        justify-content: flex-end
+        margin-right: 20px
+        width: 100%
         li
+            flex-basis: 10.0%
             position: relative
             a  
                 display: inline-block
@@ -56,10 +62,30 @@ nav
                     width: calc(100% - 10px)
                     left: 0
 
-aside
-    background-color: red
-    width: 369px
-    height: 216px
+aside.aside-header
+    width: 569px
+    height: 316px
     position: absolute
-    bottom: 410px
+    bottom: 200px
     left: 164px
+    font-family: "Raleway"
+    h1
+        font-size: 60px
+    p
+        font-size: 24px
+    button
+        margin-top: 31px
+        width: 200px
+        height: 55px
+        font-size: 20px
+        text-transform: uppercase
+        color: white
+        background-color: #ff6033
+        border: none
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5)
+        cursor: pointer
+
+div.scroll
+    position: absolute
+    bottom: 20px
+    left: calc(50% - 24px)
