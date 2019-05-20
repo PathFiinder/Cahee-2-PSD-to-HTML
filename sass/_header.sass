@@ -1,15 +1,20 @@
 header
     height: 1002px
-    background-color: red
-
+    background-image: url("/images/img_header.png")
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    position: relative
+ 
 nav
-    background-color: yellow
-    width: 100%
-    display: flex
+    position: fixed
+    z-index: 1
+    display: flex 
     flex-direction: row
     justify-content: flex-end
     align-items: center
     div.logo
+        margin-left: 45px
         margin-right: 487px
         color: #262626
         font-size: 30px
@@ -23,28 +28,38 @@ nav
         flex-direction: row
         margin-right: 100px
         li
-            border: 1px solid black
             position: relative
             a  
                 display: inline-block
                 height: 100%
-                background-color: blue
                 padding: 10px 10px 0px 10px
                 font-family: Raleway
                 font-weight: 700
                 font-size: 26px
                 text-decoration: none
                 color: black
-                text-transform: uppercase
-                background-color: rgba(pink,0.6)
+                text-transform: uppercase       
                 
             a:hover + span
                 display: block
-                
-                height: 10px
+                position: absolute
+                top: 0
+                left: 10px
+                width: calc(100% - 20px)
+                height: 5px
                 background-color: orange
                 
         li:nth-child(1)
                 a
                     padding-left: 0px    
-                
+                a:hover + span
+                    width: calc(100% - 10px)
+                    left: 0
+
+aside
+    background-color: red
+    width: 369px
+    height: 216px
+    position: absolute
+    bottom: 410px
+    left: 164px
