@@ -13,7 +13,7 @@ html {
 
 header {
   height: 100vh;
-  background-image: url("/img_header.png");
+  background-image: url("/images/img_header.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -394,7 +394,7 @@ section.gallery button.view-more {
 
 section.subscribe-us {
   height: 500px;
-  background-image: url("/bg_subscribe.png");
+  background-image: url("/images/bg_subscribe.png");
   background-repeat: no-repeat;
   background-position: center;
   background-position-x: right;
@@ -566,7 +566,7 @@ section.blog button {
 
 section.contact {
   height: 866px;
-  background-image: url("/bg_contact.png");
+  background-image: url("/images/bg_contact.png");
   background-position: center;
   background-repeat: no-repeat;
   font-family: Raleway;
