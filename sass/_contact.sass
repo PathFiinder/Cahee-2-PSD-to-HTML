@@ -1,4 +1,93 @@
 section.contact
     height: 866px
-    background-color: blue
-    
+    background-image: url("/images/bg_contact.png")
+    background-position: center
+    background-repeat: no-repeat
+    font-family: Raleway
+    h1
+        font-size: 90px
+        text-align: center
+        padding-top: 101px
+        margin-bottom: 48px
+    div.container
+        width: 342px
+        height: 41px
+        margin: 0 auto 46px auto
+        p
+            font-size: 16px
+            text-align: center
+    div.wrapper
+        width: 987px
+        height: 445px
+        margin: 0 auto
+        display: flex
+        flex-direction: row
+        form
+            width: 500px
+            display: flex
+            flex-direction: column
+            div.vertical
+                flex-basis: 50px
+                margin-bottom: 15px
+                background-color: #00c4c4
+                border: none
+                position: relative
+                span
+                    position: absolute
+                    top: 0
+                    left: 0
+                    width: 5px
+                    height: 100%
+                    background-color: #355b82
+                input,textarea
+                    width: 100%
+                    height: 100%
+                    background-color: #00c4c4
+                    border: none
+                    padding-left: 15px
+                textarea
+                    resize: none
+                    padding: 20px 15px 19px 15px
+                textarea::placeholder
+                    color: white
+                    font-size: 17px
+                .in::placeholder
+                    margin-left: 15px
+                    padding: 20px 0px 19px 0px
+                    color: white
+                    font-size: 17px
+                input.in.in-2,input.in.in-3,textarea
+                    opacity: 0.5
+            div.vertical:nth-of-type(4)
+                flex-grow: 1
+                margin-bottom: 0px
+
+            div.vertical:nth-of-type(2),
+            div.vertical:nth-of-type(3),
+            div.vertical:nth-of-type(4)
+                span
+                    display: none
+
+            div.vertical:nth-of-type(2):hover,
+            div.vertical:nth-of-type(3):hover,
+            div.vertical:nth-of-type(4):hover
+                span
+                    display: block
+                input,textarea
+                    opacity: 1
+           
+        div.info
+            margin-left: 170px
+            width: 317px
+            height: 160px
+            div.info-add 
+                margin-bottom: 14px
+                h2
+                    font-size: 20px
+                p
+                    font-size: 17px
+            
+            div.info-add.phone
+                margin-bottom: 0px
+            
+                
