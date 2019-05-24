@@ -8,39 +8,47 @@ section.subscribe-us
     position: relative
     img.bg
         position: absolute
-        top: 0
-        right: 0
-        width: 599px
-        height: 500px
+        bottom: -50px
+        left: 0
+        width: 100%
+        height: 300px
+        z-index: -1
     div.wrapper
-        width: 776px
-        height: 198px
-        position: absolute
-        top: 145px
-        left: 143px
+        width: 280px
+        overflow: hidden
+        height: 300px
+        margin: 0 auto
         h1
-            font-size: 40px
+            font-size: 25px
+            margin-top: 20px
             margin-bottom: 34px
+            text-align: center
         div.container
             margin-bottom: 20px
+            text-align: center
             p
-                font-size: 16px
-                width: 541px
-                height: 43px
+                font-size: 15px
+                
         input
-            width: 570px
-            height: calc(198px - 47px - 34px - 31px - 43px)
+            width: 260px
+            height: 43px
+            margin: 0px 10px 0px 10px
             padding: 22px 0 22px 15px
+            
         input::placeholder
             color: #262626
             font-size: 15px
             opacity: 0.5
-        button
-            margin-left: 30px
-            width: 170px
-            height: 55px
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5)
-            background-color: #96b92c
-            color: white
-            text-transform: uppercase
-            border: none
+        div.button-container
+            width: 100%
+            margin: 10px auto 0 auto
+            text-align: center
+            button
+                width: 170px
+                height: 55px
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5)
+                background-color: #96b92c
+                color: white
+                text-transform: uppercase
+                border: none
+                cursor: pointer

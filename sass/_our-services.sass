@@ -1,25 +1,32 @@
 section.our-services
     background-color: #70bfff
     height: 790px
-    position: relative
     font-family: Raleway
+    position: relative
     h1
         position: absolute
         color: white
-        font-size: 90px
-        bottom: 362px
-        right: 164px
+        margin-top: 5px
+        width: 100%
+        font-size: 25px
+        text-align: center
+        left: 0
+        top: 0
+        z-index: 1
     div.wrap
-        height: 100%
+        padding-top: 10px
+        height: 60% //474px
         display: flex
-        align-items: center
         justify-content: center
+        overflow: hidden
         .wrap-content
             display: flex
             flex-direction: column
-            width: 400px
+            width: 260px
+            margin-top: 30px
+            z-index: 1
             .withIcon
-                flex-basis: 100px
+                height: 91px
                 display: flex
                 margin-bottom: 20px
                 background-color: #ffffff
@@ -27,10 +34,10 @@ section.our-services
                 align-items: center
                 h2
                     flex-basis: 75% //300px
-                    height: 100px
+                    height: 100%
                     border-right: 2px solid #9d9d9d
                     color: #262626
-                    font-size: 20px
+                    font-size: 15px
                     display: flex
                     justify-content: center
                     align-items: center
@@ -39,14 +46,17 @@ section.our-services
                     width: 47px
                     height: 44px
                     margin: 0 auto
+
             .withIcon:nth-of-type(4)
                 margin-bottom: 0px
             .withIcon:nth-of-type(3)
                 h2
                     text-align: center
-                    
-                
-
-        .img-our-services
-            margin-left: 258px  
-            
+    .img-our-services
+            position: absolute
+            bottom: 20px
+            left: 50%
+            transform: translateX(-50%) 
+            height: 35%
+            img
+                height: 100%
