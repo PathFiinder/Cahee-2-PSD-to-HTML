@@ -35,13 +35,13 @@ document.querySelector('.view-more').addEventListener('click', function () {
         document.querySelector('.view-more').textContent = "view more"
         activeH = 0
     }
-
+    activeH = 0
 })
 
 //SCROLL
 function toScroll(PosTop, navH,activeH) {
     $('body, html').animate({
-        scrollTop: PosTop - navH + activeH
+        scrollTop: PosTop - navH - activeH
     }, 1000)
     document.querySelector('nav').classList.remove('active');
     document.querySelector('.ul-list').classList.remove('active');
