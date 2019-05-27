@@ -21,7 +21,7 @@ let activeH = 0
 
 //FLEX
 
-const classLista = ['section.gallery', 'div.wrap-gallery', 'div.wrap-content-3', 'div.wrap-content-4'];
+const classLista = ['section.gallery', 'div.wrap-gallery', 'div.wrap-content-4'];
 
 document.querySelector('.view-more').addEventListener('click', function () {
     for (let i = 0; i < classLista.length; i++) {
@@ -30,7 +30,6 @@ document.querySelector('.view-more').addEventListener('click', function () {
     if (document.querySelector('.wrap-gallery').classList.contains('active')) {
         document.querySelector('.view-more').textContent = "view less"
         activeH = 458
-
     } else {
         document.querySelector('.view-more').textContent = "view more"
         activeH = 0
@@ -39,7 +38,7 @@ document.querySelector('.view-more').addEventListener('click', function () {
 })
 
 //SCROLL
-function toScroll(PosTop, navH,activeH) {
+function toScroll(PosTop, navH, activeH) {
     $('body, html').animate({
         scrollTop: PosTop - navH - activeH
     }, 1000)
@@ -48,25 +47,25 @@ function toScroll(PosTop, navH,activeH) {
 }
 
 $('.a-home').on('click', function () {
-    toScroll(headerPosTop, 0,activeH)
+    toScroll(headerPosTop, 0, activeH)
 })
 
 $('.a-about').on('click', function () {
-    toScroll(aboutUsPosTop, navHeight,activeH)
+    toScroll(aboutUsPosTop, navHeight, activeH)
 })
 
 $('.a-services').on('click', function () {
-    toScroll(ourServicesPosTop, navHeight,activeH)
+    toScroll(ourServicesPosTop, navHeight, activeH)
 })
 
 $('.a-gallery').on('click', function () {
-    toScroll(galleryPosTop, navHeight,activeH)
+    toScroll(galleryPosTop, navHeight, activeH)
 })
 
 $('.a-blog').on('click', function () {
-    toScroll(blogPosTop, navHeight,activeH)
+    toScroll(blogPosTop, navHeight, activeH)
 })
 
 $('.a-contact').on('click', function () {
-    toScroll(contactPosTop, navHeight,activeH)
+    toScroll(contactPosTop, navHeight, activeH)
 })
