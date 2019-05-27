@@ -16,7 +16,7 @@ div.wrapper-body {
 
 nav {
   height: 60px;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.2);
   position: fixed;
   max-width: 1500px;
   width: 100%;
