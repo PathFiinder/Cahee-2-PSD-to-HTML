@@ -780,8 +780,8 @@ section.our-services .img-our-services img {
             flex-direction: row;
   }
   section.gallery div.wrap-gallery div.wrap-content-3 div.img-4 {
-    -ms-flex-preferred-size: 570px;
-        flex-basis: 570px;
+    -ms-flex-preferred-size: 585px;
+        flex-basis: 585px;
     padding: 0;
     height: 100%;
   }
@@ -1951,8 +1951,8 @@ footer p:nth-of-type(2) span {
             flex-direction: row;
   }
   section.gallery div.wrap-gallery div.wrap-content-3 div.img-4 {
-    -ms-flex-preferred-size: 570px;
-        flex-basis: 570px;
+    -ms-flex-preferred-size: 585px;
+        flex-basis: 585px;
     padding: 0;
     height: 100%;
   }
