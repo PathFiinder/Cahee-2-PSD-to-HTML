@@ -188,6 +188,10 @@ section.about-us {
   overflow: hidden;
 }
 
+section.about-us .about-us__title--none {
+  display: none;
+}
+
 section.about-us div.img-about-us {
   position: absolute;
   height: 350px;
@@ -215,7 +219,7 @@ aside.about-us-aside {
   text-align: center;
 }
 
-aside.about-us-aside h1 {
+aside.about-us-aside h2 {
   font-size: 25px;
   margin-bottom: 10px;
 }
@@ -1095,7 +1099,7 @@ section.subscribe-us div.wrapper {
   margin: 0 auto;
 }
 
-section.subscribe-us div.wrapper h1 {
+section.subscribe-us div.wrapper h2 {
   font-size: 25px;
   margin-top: 20px;
   margin-bottom: 34px;
