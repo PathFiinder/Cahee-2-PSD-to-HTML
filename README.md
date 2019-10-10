@@ -1,4 +1,4 @@
-A project carried out to create a one-single page. (PSD to HTML)
+A project carried out to create a website based on free template (PSD to HTML)
 
 Source: https://drive.google.com/drive/folders/0Bw2hu70L5Ye_UFlWWDVLSHlfUWc?fbclid=IwAR2a2qS6knJpAyh8i-FuAJax6W3IRkxOSQC9idXO-A-YgcuWoxjaLspVZhM
 
